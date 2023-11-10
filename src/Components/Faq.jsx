@@ -5,7 +5,7 @@ import { Light, Mail } from "./Mysvg";
 
 const Faq = () => {
   return (
-    <div className=" pt-lg-5">
+    <div className=" pt-lg-5 pb-5">
       <Container className=" custom_cuntainer pt-5 ">
         <div data-aos="fade-down">
           <h2 className=" fw_500 fs_48 font_Roboto text-black ">FAQ’s</h2>
