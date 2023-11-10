@@ -23,6 +23,9 @@ const Myheader = () => {
   } else {
     document.body.classList.remove("overflow-hidden");
   }
+  const Movement = () => {
+    document.body.classList.remove("overfloe-hidden");
+  };
   return (
     <div id="Home" className="hero_bg min_vh_100 d-flex flex-column ">
       <nav className=" py-3">

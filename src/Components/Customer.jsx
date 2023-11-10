@@ -87,7 +87,7 @@ const Customer = () => {
                 </p>
               </div>
             </Col>
-            <Col lg={3} md={4} sm={6} className=" mt-4 mt-lg-0">
+            <Col lg={3} md={4} sm={6} className=" mt-4 mt-md-0">
               <div className=" card_sec4" data-aos="fade-down">
                 <Repot />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Reports</p>
