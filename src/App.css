@@ -538,24 +538,6 @@ nav ul {
 }
 
 @media (max-width: 992px) {
-  .nav-btn {
-    display: inline-flex;
-    padding: 12px 31px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: white;
-    border: 1px solid white;
-    background: transparent;
-    transition: all 500ms ease-in-out;
-    z-index: 9;
-  }
-  .nav-btn:hover {
-    border: 1px solid transparent;
-    color: white;
-    background: linear-gradient(93deg, #1643c3 10.28%, #369efe 96.25%),
-      linear-gradient(179deg, #1643c3 0.63%, #000 175.69%);
-  }
   nav ul {
     flex-direction: column;
     position: fixed;
@@ -568,10 +550,10 @@ nav ul {
     z-index: 9;
     transition: all 500ms linear;
     overflow: hidden;
-    background: linear-gradient(93deg, #1643c3 10.28%, #369efe 96.25%),
-      linear-gradient(179deg, #1643c3 0.63%, #000 175.69%);
-    /* backdrop-filter: blur(20px); */
-    /* background: transparent; */
+    /* background: linear-gradient(93deg, #1643c3 10.28%, #369efe 96.25%),
+      linear-gradient(179deg, #1643c3 0.63%, #000 175.69%); */
+    backdrop-filter: blur(25px);
+    background: transparent;
   }
   nav ul.open {
     display: flex;
