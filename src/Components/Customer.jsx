@@ -67,6 +67,7 @@ const Customer = () => {
           <Row className=" pt-5 pb-lg-5 mt-lg-4  align-items-center  d-flex justify-content-center ">
             <Col lg={3} md={4} sm={6}>
               <div className=" card_sec4" data-aos="fade-down-right">
+                <div className=" circle  "> </div>
                 <Dule />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Schedule</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">
@@ -77,6 +78,7 @@ const Customer = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-sm-0">
               <div className=" card_sec4 padng" data-aos="fade-down">
+                <div className=" circle  "> </div>
                 <Manage />
                 <p className=" fw_500 fs_20 font_Roboto text-black">
                   Clients & Pets
@@ -89,6 +91,7 @@ const Customer = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-md-0">
               <div className=" card_sec4" data-aos="fade-down">
+                <div className=" circle  "> </div>
                 <Repot />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Reports</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">
@@ -99,6 +102,7 @@ const Customer = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-lg-0">
               <div className=" card_sec4" data-aos="fade-down-left">
+                <div className=" circle  "> </div>
                 <Drope />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Services</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">

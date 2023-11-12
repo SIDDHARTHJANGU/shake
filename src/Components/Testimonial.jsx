@@ -4,6 +4,7 @@ import dog from "../assets/img/dog.png";
 import dogs from "../assets/img/dog1.png";
 import star from "../assets/img/star.png";
 import Slider from "react-slick";
+import green from "../assets/img/greenside.png";
 
 import { Arrow1, Arrow2 } from "./Mysvg";
 const Testimonial = () => {
@@ -18,7 +19,13 @@ const Testimonial = () => {
     autoplaySpeed: 3000,
   };
   return (
-    <div id="Free" className=" pt-lg-5 pb-lg-5">
+    <div id="Free" className=" pt-lg-5 pb-lg-5 position-relative">
+      <div
+        className=" position-absolute green d-none d-md-block"
+        data-aos="fade-left"
+      >
+        <img src={green} alt="" />
+      </div>
       <Container className=" custom_cuntainer pt-5 pb-5">
         <div>
           <h2

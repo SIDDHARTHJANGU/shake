@@ -11,7 +11,8 @@ const Features = () => {
             <div data-aos="fade-down-right">
               <Row className=" align-items-center">
                 <Col sm={6}>
-                  <div className="sec_2_card ">
+                  <div className="sec_2_card position-relative">
+                    <div className=" yello_circle"></div>
                     <Aone />
                     <p className="fs_20 fw_500  font_Roboto text-black">
                       Clients & Pets
@@ -37,7 +38,8 @@ const Features = () => {
                       alerts and much more…
                     </p>
                   </div>
-                  <div className="sec_2_card py-3 px-3 mt-4">
+                  <div className="sec_2_card py-3 px-3 mt-4 position-relative">
+                    <div className=" yello_circle"></div>
                     <Remin />
                     <p className="fs_20 fw_500  font_Roboto text-black">
                       Notifications & Reminders
@@ -62,7 +64,8 @@ const Features = () => {
                 </Col>
                 <Col sm={6}>
                   <div className="">
-                    <div className="sec_2_card mt-4 mt-sm-0">
+                    <div className="sec_2_card mt-4 mt-sm-0 position-relative">
+                      <div className=" yello_circle"></div>
                       <Sche />
                       <p className="fs_20 fw_500  font_Roboto text-black">
                         Schedule

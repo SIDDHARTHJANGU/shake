@@ -57,6 +57,7 @@ const Download = () => {
           <Row className=" pt-5 pb-5 d-flex justify-content-center ">
             <Col lg={3} md={4} sm={6}>
               <div className=" card_sec4" data-aos="fade-down-right">
+                <div className=" circle  "> </div>
                 <Easye />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Founded</p>
                 <p className=" dec_clr fw_500 fs_16 font_Neue">Dec 2009</p>
@@ -68,6 +69,7 @@ const Download = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-sm-0">
               <div className=" card_sec4 padng" data-aos="fade-down">
+                <div className=" circle  "> </div>
                 <Photo />
                 <p className=" fw_500 fs_20 font_Roboto text-black">
                   Clients & Pets
@@ -81,6 +83,7 @@ const Download = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-md-0">
               <div className=" card_sec4" data-aos="fade-down">
+                <div className=" circle  "> </div>
                 <Market />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Reports</p>
                 <p className=" dece_clr fw_500 fs_16 font_Neue">Dec 2012</p>
@@ -91,6 +94,7 @@ const Download = () => {
             </Col>
             <Col lg={3} md={4} sm={6} className=" mt-4 mt-lg-0">
               <div className=" card_sec4" data-aos="fade-down-left">
+                <div className=" circle  "> </div>
                 <Treat />
                 <p className=" fw_500 fs_20 font_Roboto text-black">Services</p>
                 <p className=" aug_clr fw_500 fs_16 font_Neue">Aug 2013</p>

@@ -1,10 +1,17 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { Tick } from "./Mysvg";
+import sky from "../assets/img/sky.png";
 
 const Pricing = () => {
   return (
-    <div id="Pricing" className=" pt-5 pb-5">
+    <div id="Pricing" className=" pt-5 pb-5 position-relative">
+      <div
+        className=" position-absolute sky d-none d-sm-block"
+        data-aos="fade-right"
+      >
+        <img src={sky} alt="" />
+      </div>
       <Container className=" custom_cuntainer pt-5 pb-5">
         <div className=" text-center" data-aos="fade-down">
           <h2 className=" fw_500 fs_48 font_Roboto text-black">Pricing Plan</h2>
@@ -12,8 +19,8 @@ const Pricing = () => {
             Our Subscriptions, simple, flexible and designed for your business
             needs.
           </p>
-          <div className=" d-flex align-items-center justify-content-center gap-3">
-            <p className=" fw_400 fs_24 text-black font_Roboto">£ GBP</p>
+          <div className=" d-flex align-items-center justify-content-center gap-3 mt-4">
+            <p className=" fw_700 fs_24 text_blue font_Roboto">£ GBP</p>
             <label class="switch">
               <input type="checkbox" />
               <span class="slider round"></span>

@@ -248,6 +248,15 @@ p {
   background: var(--ffffff, #fff);
   box-shadow: 0px 6px 39px 0px rgba(91, 149, 224, 0.13);
   padding: 19px 12px 18px 16px;
+  cursor: pointer;
+}
+.sky {
+  top: 10%;
+  left: 0;
+}
+.green {
+  right: 0;
+  bottom: -10%;
 }
 .sec_3card {
   position: absolute;
@@ -522,7 +531,39 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /* toggel */
-
+.text_blue {
+  color: #5b95e0;
+}
+.circle {
+  position: relative;
+}
+.circle {
+  position: absolute;
+  content: url("./assets//img/circlr.png");
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  transition: all 350ms linear;
+  border-radius: 14px;
+}
+.card_sec4:hover .circle {
+  opacity: 1;
+}
+.yello_circle {
+  position: relative;
+}
+.yello_circle {
+  position: absolute;
+  content: url("./assets/img/yellowcircle.png");
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all 350ms linear;
+  border-radius: 14px;
+}
+.sec_2_card:hover .yello_circle {
+  opacity: 1;
+}
 .open {
   border: none;
   z-index: 2;
@@ -843,7 +884,7 @@ nav ul {
     background-image: url("./assets/img/footer_bg.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
   }
   .fs_8 {
     font-size: 8px;

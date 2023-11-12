@@ -5,7 +5,7 @@ import { Facebook, In, Insta, Telegram, Twtter } from "./Mysvg";
 
 const Footer = () => {
   return (
-    <div className=" footer_bg pt-lg-5 pb-lg-5 footer_bcg  ">
+    <div className=" footer_bg pt-lg-5  footer_bcg  ">
       <Container className=" custom_cuntainer pt-lg-5 pb-lg-5 mt-lg-5 ">
         <Row className=" d-flex justify-content-between align-items-center pt-lg-5  mt-lg-5 pb-5">
           <Col lg={5} className=" pt-lg-5 pb-lg-5">
