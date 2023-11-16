@@ -547,9 +547,7 @@ input:checked + .slider:before {
 .card_sec4:hover .circle {
   opacity: 1;
 }
-.yello_circle {
-  position: relative;
-}
+
 .yello_circle {
   position: absolute;
   content: url("./assets/img/yellowcircle.png");

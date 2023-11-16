@@ -72,7 +72,7 @@ const Download = () => {
                 <div className=" circle  "> </div>
                 <Photo />
                 <p className=" fw_500 fs_20 font_Roboto text-black">
-                  Clients & Pets
+                  Product Launch
                 </p>
                 <p className=" july_clr fw_500 fs_16 font_Neue">July 2010</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">
@@ -85,7 +85,9 @@ const Download = () => {
               <div className=" card_sec4" data-aos="fade-down">
                 <div className=" circle  "> </div>
                 <Market />
-                <p className=" fw_500 fs_20 font_Roboto text-black">Reports</p>
+                <p className=" fw_500 fs_20 font_Roboto text-black">
+                  Pet Schedule Released
+                </p>
                 <p className=" dece_clr fw_500 fs_16 font_Neue">Dec 2012</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">
                   Our new Web based platform was created and released.
@@ -96,7 +98,9 @@ const Download = () => {
               <div className=" card_sec4" data-aos="fade-down-left">
                 <div className=" circle  "> </div>
                 <Treat />
-                <p className=" fw_500 fs_20 font_Roboto text-black">Services</p>
+                <p className=" fw_500 fs_20 font_Roboto text-black">
+                  Subscription Service
+                </p>
                 <p className=" aug_clr fw_500 fs_16 font_Neue">Aug 2013</p>
                 <p className=" fw_300 fs_16 font_Neue text_clr">
                   We released our first premier subscription to the market
