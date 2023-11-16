@@ -24,7 +24,7 @@ const Myheader = () => {
     document.body.classList.remove("overflow-hidden");
   }
   const Movement = () => {
-    document.body.classList.remove("overfloe-hidden");
+    setshow(false);
   };
   return (
     <div id="Home" className="hero_bg min_vh_100 d-flex flex-column ">
@@ -37,6 +37,7 @@ const Myheader = () => {
             <ul className={show ? "open" : ""}>
               <li>
                 <a
+                  onClick={Movement}
                   href="#Home"
                   className=" fs_16 fw_500  text-white font_Neue line_3 position-relative"
                 >
@@ -45,6 +46,7 @@ const Myheader = () => {
               </li>
               <li>
                 <a
+                  onClick={Movement}
                   href="#Features"
                   className=" fs_16 fw_500  text-white font_Neue line_3 position-relative"
                 >
@@ -53,6 +55,7 @@ const Myheader = () => {
               </li>
               <li>
                 <a
+                  onClick={Movement}
                   href="#Pricing"
                   className=" fs_16 fw_500  text-white font_Neue line_3 position-relative"
                 >
@@ -61,6 +64,7 @@ const Myheader = () => {
               </li>
               <li>
                 <a
+                  onClick={Movement}
                   href="#Free"
                   className=" fs_16 fw_500  text-white font_Neue line_3 position-relative"
                 >
@@ -84,7 +88,7 @@ const Myheader = () => {
           </div>
         </Container>
       </nav>
-      <div className=" flex-grow-1 d-lg-flex  ">
+      <div className=" flex-grow-1 d-lg-flex   ">
         <Container className=" custom_cuntainer">
           <Row className=" align-items-center d-lg-flex justify-content-between text-center text-lg-start">
             <Col lg={6} className="">

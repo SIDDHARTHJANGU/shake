@@ -134,7 +134,14 @@ const Footer = () => {
       </Container>
       <div className=" footer_line  "></div>
       <p className=" fw_300 fs_16 font_Neue text-white text-center py-4  ">
-        Made with Powered by Petstar - DOG GROOMING BUSINESSES & PET SERVICES
+        Made with Powered by Petstar -{" "}
+        <span className=" text-decoration-underline">
+          {" "}
+          <a href="https://shake-seven.vercel.app/" className=" text-white">
+            {" "}
+            DOG GROOMING BUSINESSES & PET SERVICES
+          </a>
+        </span>
       </p>
     </div>
   );

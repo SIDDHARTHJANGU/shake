@@ -36,7 +36,7 @@
   font-size: 13px;
 }
 .fs_16 {
-  font-size: 16px;
+  font-size: 13px;
 }
 .fs_18 {
   font-size: 18px;
@@ -53,11 +53,9 @@
 .fs_32 {
   font-size: 32px;
 }
+
 .fs_48 {
-  font-size: 48px;
-}
-.fs_48 {
-  font-size: 48px;
+  font-size: 41px;
 }
 .fs_76 {
   font-size: 76px;
@@ -354,7 +352,7 @@ p {
   margin-top: 51px;
 }
 .mt4 {
-  margin-top: 15px;
+  margin-top: 24px;
 }
 .yello_sms {
   position: absolute;
@@ -576,6 +574,9 @@ nav ul {
   align-items: center;
   flex-direction: row;
   gap: 20px;
+}
+.google {
+  cursor: pointer;
 }
 
 @media (max-width: 992px) {
@@ -833,24 +834,20 @@ nav ul {
     left: 10%;
     transform: rotate(-90deg);
   }
-  .img_postion4 {
-    position: absolute;
-    bottom: 37%;
-    right: -1%;
-  }
+
   .img_postion {
     position: absolute;
-    bottom: 36%;
+    bottom: 11%;
     right: -4%;
   }
   .img_postion4 {
     position: absolute;
-    bottom: 36%;
+    bottom: 11%;
     right: 25%;
   }
   .img_postion3 {
     position: absolute;
-    bottom: 36%;
+    bottom: 11%;
     right: 9%;
   }
   .padding {
@@ -930,5 +927,8 @@ nav ul {
 @media (min-width: 1200px) {
   .custom_cuntainer {
     max-width: 1140px !important;
+  }
+  .mt4 {
+    margin-top: 44px;
   }
 }

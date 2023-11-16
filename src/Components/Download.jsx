@@ -31,8 +31,8 @@ const Download = () => {
                   subscribers.
                 </p>
                 <div className=" mt-5">
-                  <img src={google} alt="" />
-                  <img className=" ms-3" src={app} alt="" />
+                  <img className="google" src={google} alt="#" />
+                  <img className=" ms-3 google" src={app} alt="#" />
                 </div>
               </div>
             </Col>

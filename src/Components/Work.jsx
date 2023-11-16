@@ -100,9 +100,7 @@ const Work = () => {
                   Done
                 </p>
                 <p className=" fs_16 fw_300 font_Neue account_clr">
-                  You're Ready to Rock! Add{" "}
-                  <span className=" d-block">clients & start booking</span>
-                  appointments.
+                  Add clients & start booking appointments.
                 </p>
                 <p className=" fs_76 fw_700 font_helvetica position-absolute clr4 img_postion4 z-n1">
                   04

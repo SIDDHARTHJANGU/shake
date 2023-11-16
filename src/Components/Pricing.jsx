@@ -264,12 +264,12 @@ const Pricing = () => {
                   Unlimited Clients
                 </p>
               </div>
-              <div className=" d-flex align-items-center mt-2">
+              {/* <div className=" d-flex align-items-center mt-2">
                 <Tick />
                 <p className=" fw_300 fs_13 text_clr  font_Neue ms-2">
                   Unlimited Appointments
                 </p>
-              </div>
+              </div> */}
               <div className=" d-flex align-items-center mt-2">
                 <Tick />
                 <p className=" fw_300 fs_13 text_clr  font_Neue ms-2">

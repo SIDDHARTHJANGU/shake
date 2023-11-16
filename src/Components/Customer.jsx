@@ -41,7 +41,7 @@ const Customer = () => {
                   </div>
                 </div>
                 <img
-                  className=" w-100 img_radus mt-5 mt-lg-0"
+                  className=" w-100 img_radus mt-4 mt-lg-0"
                   src={sec_3}
                   alt=""
                 />
